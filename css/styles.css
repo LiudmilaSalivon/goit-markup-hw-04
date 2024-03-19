@@ -194,6 +194,10 @@ cursor: pointer;
 .advantages-container {
     align-items: center;
 }
+
+.advantages-menu-icon {
+    fill: transparent;
+}
 .advantages-title {
     font-weight: 700;
     font-size: 36px;

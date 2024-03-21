@@ -107,7 +107,7 @@ position: relative;
 color: #404bbf;
 }
 .current::after {
-    content: counter "";
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;

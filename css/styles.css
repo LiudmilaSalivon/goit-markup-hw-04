@@ -448,16 +448,26 @@ color: #434455;
 /* =================FOOTER================= */
 
 .footer {
+    width: 1440px;
+height: 312px;
     padding-top: 100px ;
     padding-bottom: 100px;
 background: #2e2f42;
 
 }
 
+.footer-wrap {
+    display: flex;
+    width: 264px;
+height: 112px;
+margin: 0, auto;
+    align-items: baseline;
+}
 .container-footer {
   display: flex;  
-
+  align-items: baseline;
  
+  margin-right: 120px
 }
 .logo-part-footer{    
 color: #f4f4fd;
@@ -472,15 +482,16 @@ color: #f4f4fd;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    padding-bottom: 16px;
+   margin-bottom: 16px;
   max-width: 264px;
 }
 
 .footer-text {
+    font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #f4f4fd;
+color:#f4f4fd;
 max-width: 264px;
 
 }
